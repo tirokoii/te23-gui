@@ -55,7 +55,11 @@ def show():
 show_button = Button(root, text="Roll the dice", command=show)
 show_button.pack()
 
-button = Button(root, text="Quit program", width=50, command=root.destroy)
+button = Button(root, text="Quit program", width=45, command=root.destroy)
 button.pack()
 
+text_box.configure(background="black", fg="white")
+text_box_number.configure(background="black", fg="white")
+button.configure(background="darkred", fg="white")
+root.configure(background="black")
 root.mainloop() #Keeps it updated'''
